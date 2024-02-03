@@ -51,6 +51,14 @@ const USER_CONFIG = {
     },
   ],
 
+  TIAN_API: {
+  // 天行API KEY，如果使用天行API则需要填写此项
+  key: 'a0b8e76e7b3259224cc0070ee991973c',
+  /** 天行API相关，需要config中配置 TIAN_API_KEY  */
+  weather: 1,
+
+},
+
 
   // 【推送完成提醒】模板id, 用来看自己有没有发送成功的那个模板
   CALLBACK_TEMPLATE_ID: 'o_BS49V60yzobTUo3dGL4QRJGhrTQ_2qCLdnv8Q-AUc',
